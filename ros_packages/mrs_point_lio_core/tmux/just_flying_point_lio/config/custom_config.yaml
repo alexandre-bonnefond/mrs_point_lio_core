@@ -242,7 +242,7 @@ mrs_uav_managers:
         enabled: true
         frame_id: "mapping_origin"
 
-      point_lio_raw:
+    point_lio_raw:
       odom_topic: "odom" # name of the topic (expects nav_msgs/Odometry topic type)
       tf_from_attitude: # used for transforming velocities before full transform is available
         enabled: false
